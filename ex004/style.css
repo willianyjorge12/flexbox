@@ -1,0 +1,9 @@
+.membros{
+    display: flex;
+    flex-direction: row;
+}
+.card img{
+    width: 50px;
+    text-align: center;
+}
+
