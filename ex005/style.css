@@ -1,0 +1,9 @@
+.rodape{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.rodape .colunas{
+    display: flex;
+    flex-direction: column;
+}

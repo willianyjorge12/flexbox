@@ -1,9 +1,22 @@
 .membros{
     display: flex;
     flex-direction: row;
+    gap: 20px;
+    text-align: center;
 }
 .card img{
-    width: 50px;
+    width: 200px;
+    height: 200px;
     text-align: center;
+    object-fit: contain;
+}
+.membros .card{
+    width: 150;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+    background-color: rgb(170, 177, 162);
+    border: 7px black solid;
+    
 }
 

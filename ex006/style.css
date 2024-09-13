@@ -1,0 +1,23 @@
+.planos{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.planos .card-planos{
+    width: 250px;
+    background: rgb(158, 158, 219);
+    border: black solid;
+}
+.planos .card-planos h2{
+    text-align: center;
+}
+.planos .card-planos button:hover{
+   background-color: cadetblue;
+   color: aliceblue;
+   border: black solid;
+   border-radius: 5px;
+}
+.planos .card-planos button{
+    margin: auto;
+    display: flex;
+}
